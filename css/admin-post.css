@@ -1,0 +1,52 @@
+/**
+ * admin.css
+ * Version: 0.1
+ * Author:  Green Sheep
+ * Created: March 25, 2018
+ * Modified:
+ * License: GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
+table.keyword-table,
+table.keyword-table td,
+table.keyword-table th,
+table.correction-table,
+table.correction-table td,
+table.correction-table th {
+  border: 1px solid #ccc ;
+}
+table.keyword-table thead th,
+table.correction-table thead th {
+  padding: 15px 10px;
+  background: #333a56;
+  color: #fff;
+  border: 1px solid #999;
+  vertical-align: middle;
+}
+table.keyword-table tr:nth-child(2n),
+table.correction-table tr:nth-child(2n) {
+  background: #e8e8e8;
+}
+table.keyword-table tr:nth-child(2n+1),
+table.correction-table tr:nth-child(2n+1) {
+  background: #f7f5e6;
+}
+table.keyword-table tr:nth-child(1),
+table.keyword-table tr:nth-child(2),
+table.keyword-table tr:nth-child(3) {
+  background: #52658f;
+  color: #fff;
+  font-size: bold;
+}
+table.keyword-table .column-10,
+table.correction-table .column-10 {
+  width: 10%;
+}
+table.keyword-table .column-30,
+table.correction-table .column-30 {
+  width: 30%;
+}
+
+.seo-result {
+  margin-bottom: 10px;
+}
